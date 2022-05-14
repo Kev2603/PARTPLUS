@@ -1,0 +1,488 @@
+/*Para el section*/
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap);
+
+/*Para el nav*/
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap);
+
+/*Para el aside*/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Ruda&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #151D3B;
+    color: white;
+}
+
+header{
+    height: 5%;
+    width: 100%;
+    padding: 15px 0 0 0;
+    position: relative;
+}
+
+#logo{
+    width: 205px;
+    height: 205px;
+    float: left;
+    padding-left: 50px;
+}
+
+#eslogan h1{
+    text-shadow: 1px 1px yellow;
+    color: #AEB6BF;
+    font-size: 60px;    
+    text-align: center;
+    padding-top: 4%;
+    letter-spacing: 30px;
+}
+
+#eslogan h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #000;
+    background: -moz-linear-gradient(#5D8BF4, #4649f0);
+    background: -o-linear-gradient(#5D8BF4, #4649f0);
+    background: -webkit-linear-gradient(#5D8BF4, #4649f0);
+}
+
+nav ul{
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px 14px 15px;
+}
+
+nav ul a:hover{
+   background: -moz-radial-gradient(#81773f, #353535);
+   background: -o-radial-gradient(#81773f, #353535);
+   background: -webkit-radial-gradient(#81773f, #353535);
+   color: #f2f2f2;
+   border-radius: 10px;
+}
+
+/*Aqui va el aside*/
+
+aside{
+    width: 300px;
+    background: #224b5c;
+    padding: 10px;
+    float: right;
+    height: 500px;
+    margin-right: 5px;
+    margin: 20px;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+aside h2{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+aside p{
+    color: white;
+    text-align: center;
+}
+
+aside a{
+    color: white;
+}
+
+/*Aqui termina el aside*/
+
+
+/*Aqui comienza el estilo del section*/
+
+section#seccion{
+    background-color: #151D3B;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+    width: 1320px;
+    min-height: 575px;
+}
+
+section h2{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.n{
+    margin-top: 20px;
+    width: 852px;
+    height: 120px;
+    text-align: justify;
+}
+
+#chems{
+    width: 245px;
+    height: 145px;
+}
+
+#chems2{
+    width: 245px;
+    height: 145px;
+}
+
+#chems4{
+    width: 245px;
+    height: 145px;
+}
+
+#chems5{
+    width: 250px;
+    height: 105px;
+    align-items: right;
+}
+#chems6{
+    width: 250px;
+    height: 105px;
+    align-items: right;
+}
+
+/*Aqui termina el estilo del section*/
+
+footer{
+    background: -moz-linear-gradient(#5D8BF4, #4649f0);
+    background: -o-linear-gradient(#5D8BF4, #4649f0);
+    background: -webkit-linear-gradient(#5D8BF4, #4649f0);
+    height: 60px;
+    margin-top: 20px;
+}
+
+#footer{
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-top: 5px;
+    font-family: 'Caveat', cursive; 
+    font-size: 25px;
+}
+
+/*Botones*/
+button {
+    border: none;
+    color: #090909;
+    padding: 0.5em 1.2em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #ff7070;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+
+
+   /************************Contacto**************************/
+   #izquierda{
+	width: 300px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	float: left;
+}
+
+.descripcion-paginas{
+	color: white;
+}
+
+.texto-nosotros{
+	text-align: left;
+}
+
+.texto-contacto{
+	text-align: left;
+}
+
+.email-contacto{
+	color: wheat;
+	text-decoration: none;
+}
+
+.email-contacto:hover{
+	text-decoration: underline;
+}
+
+#derecha{
+	width: 490px;
+	border: 0px solid;
+	height: auto; overflow: hidden;
+	float: right;
+}
+
+input[type="text"], input[type="email"]{
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+textarea{
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.nombre-mensaje{
+	width: 95%;
+}
+
+.email-asunto{
+	width: 45%;
+}
+
+
+input[type="submit"]{
+	padding: 10px;
+	background: #0489B1;
+	color: #fff;
+	border: 1px solid #086A87;
+	border-radius: 5px;
+}
+
+#mapa{
+	width: 100%;
+	height: auto; overflow: hidden;
+	padding: 20px;
+}
+
+#centro3{
+	width: 800px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+	text-align: center;
+}
+
+.encabezados{
+	font-family: 'Arial black';
+	font-size: 50px;
+}
+
+.descripcion{
+	color: #04B4AE; text-align: left; width: 200px;
+	margin-left: 0px;
+
+}
+/*************** fundadores ***********/
+
+
+.img-logo1{
+	float: center;
+    height: 250px; width: 250px;
+	margin-right: 7px;
+}
+
+.img-logo2{
+    float: center;
+    height: 300px; 
+    width: 300px;
+    margin-right: 7px;
+}
+
+
+#nombres{
+	height: auto; overflow: hidden;
+}
+
+#cris, #kev, #edg, #jose, #edu{
+	width: 245px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+#separar{
+    width: 100%;
+	height: auto;overflow: hidden;
+	padding: 10px 0px;
+	margin: auto; 
+	
+}
+/*Cierre*/
+
+@media screen and (max-width: 480px){
+
+    nav{
+        height: 80px;
+    }
+    aside{
+        margin-left: 10px;
+    }
+
+    #seccion{
+        height: 1850px;
+    }
+
+    #footer{
+        height: 75px;
+
+    }
+
+    .n{
+        width: 250px;
+        height: 225px;
+    }
+
+    #centro3 h2{
+        width: 100px;
+        margin-left: 100px;
+    }
+
+    .texto-nosotros{
+        width: 450px;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-items: center;
+    }
+
+    #filosofia{
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    #contenido-nosotros{
+        width: 500px;
+    }
+
+    .descripcion-pagina{
+        width: 430px;
+        margin-left: 20px;
+    }
+
+    form{
+        width: 430px;
+        margin-right: 25px;
+    }
+
+    #mapa{
+        width: 420px;
+    }
+
+    .img-logo1{
+        width: 205px;
+        height: 205px;
+        float: left;
+        margin-left: 150px;
+    }
+
+    #nombres{
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /* Estilos para tablets */
+
+    #seccion{
+        height: 1000px;
+    }
+
+    .piezas{
+        width: 325px;
+    }
+    
+    .n{
+        width: 280px;
+        padding-right: 25px;
+        margin-right: 25px;
+        height: 250px;
+    }
+
+    nav{
+        height: 80px;
+        width: 100%;
+    }
+    aside{
+        margin-left: 10px;
+    }
+
+
+    #centro3 h2{
+        width: 500px;
+        margin-left: 125px;
+    }
+
+    .texto-nosotros{
+        width: 750px;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-items: center;
+    }
+
+    #filosofia{
+        width: 700px;
+        margin-left: 50px;
+    }
+
+    #contenido-nosotros{
+        width: 760px;
+    }
+
+    .texto-contacto{
+        width: 400px;
+    }
+
+    .descripcion-pagina{
+        width: 700px;
+        margin-left: 20px;
+    }
+
+    #izquierda{
+        width: 250px;
+    }
+
+    form{
+        width: 500px;
+        padding-right: 30px;
+    }
+
+    #mapa{
+        width: 700px;
+    }
+
+
+    #nombres{
+        width: 750px;
+    }
+
+    .img-logo2{
+        height: 300px; 
+        width: 300px;
+        margin-right: 7px;
+    }
+}

@@ -1,0 +1,140 @@
+/*Para el section*/
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap);
+
+/*Para el nav*/
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap);
+
+/*Para el aside*/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Ruda&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #151D3B;
+    color: white;
+}
+
+header{
+    height: 5%;
+    width: 100%;
+    padding: 15px 0 0 0;
+    position: relative;
+}
+
+#logo{
+    width: 300px;
+    height: 205px;
+    float: left;
+    padding-left: 50px;
+}
+
+#eslogan h1{
+    text-shadow: 1px 1px yellow;
+    color: #AEB6BF;
+    font-size: 60px;    
+    text-align: center;
+    padding-top: 4%;
+    letter-spacing: 30px;
+}
+
+#eslogan h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #000;
+    background: -moz-linear-gradient(#5D8BF4, #4649f0);
+    background: -o-linear-gradient(#5D8BF4, #4649f0);
+    background: -webkit-linear-gradient(#5D8BF4, #4649f0);
+}
+
+nav ul{
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px 14px 15px;
+}
+
+nav ul a:hover{
+   background: -moz-radial-gradient(#81773f, #353535);
+   background: -o-radial-gradient(#81773f, #353535);
+   background: -webkit-radial-gradient(#81773f, #353535);
+   color: #f2f2f2;
+   border-radius: 10px;
+}
+
+
+footer{
+    background: -moz-linear-gradient(#5D8BF4, #4649f0);
+    background: -o-linear-gradient(#5D8BF4, #4649f0);
+    background: -webkit-linear-gradient(#5D8BF4, #4649f0);
+    height: 60px;
+    margin-top: 20px;
+}
+
+#footer{
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-top: 5px;
+    font-family: 'Caveat', cursive; 
+    font-size: 25px;
+}
+
+
+
+
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.columna{
+    flex: 25%;
+    padding: 5px;
+}
+
+.columna img{
+    margin-top: 5px;
+}
+
+@media(max-width: 800px){
+    .columna{
+        flex: 50%;
+    }
+}
+
+@media(max-width: 600px){
+    .columna{
+        flex: 100%;
+    }
+}
